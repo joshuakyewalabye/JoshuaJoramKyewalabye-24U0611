@@ -1,0 +1,116 @@
+* {
+  line-height: 1.5;
+  font-family: "Trebuchet MS";
+  box-sizing: border-box;
+  background-color: #fafafa;
+  text-align: center;
+}
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.logo {
+  width: 22%;
+  margin: 0 auto;
+}
+.hero-container {
+  width: 100%;
+  display: flex;
+}
+.hero-1 {
+  width: 33.33%;
+}
+.h1-main {
+  font-weight: 700;
+}
+.btn-green {
+  padding: 8px 30px;
+  border-radius: 20px;
+  background-color: rgb(113, 170, 170);
+  border-style: none;
+  color: white;
+}
+.green {
+  color: rgb(113, 170, 170);
+}
+.intro {
+  width: 50%;
+  margin: 0 auto;
+}
+.cardds-container {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+.cardss img {
+  border-radius: 10px;
+}
+.veo {
+  font-size: 18px;
+}
+.join-us {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 6px;
+  text-align: start;
+  padding: 6px;
+  border: solid gray;
+}
+.sign {
+  display: block;
+  padding: 6px 30px;
+  border-style: none;
+  color: white;
+  background-color: rgb(113, 170, 170);
+}
+.gry,
+a {
+  width: 30%;
+  margin: 0 auto;
+  background-color: gray;
+}
+footer {
+  background-color: gray;
+}
+a {
+  color: rgb(123, 11, 227);
+  padding-left: 10px;
+}
+.addresses {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+@media (max-width: 900px) {
+  .hero-text {
+    display: none;
+  }
+  .hero-1 {
+    width: 50%;
+  }
+  .intro {
+    width: 75%;
+    margin: 0% auto;
+    font-size: small;
+  }
+  .cardds-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .join-us {
+    width: 80%;
+    margin: 0 auto;
+    font-size: small;
+  }
+  .gry,
+  a {
+    width: 70%;
+  }
+}
